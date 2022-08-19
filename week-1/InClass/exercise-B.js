@@ -1,0 +1,10 @@
+console.log("Hello World!");
+console.log("Hola Mundo!");
+console.log("Buenos Dias!");
+console.log("Good Day!");
+console.log("Good Night!");
+console.log("Buenas Noches!");
+console.log("Good Afternoon!");
+console.log("Buenas Tardes");
+console.log("Goodbye World");
+console.log("Adios Mundo");
