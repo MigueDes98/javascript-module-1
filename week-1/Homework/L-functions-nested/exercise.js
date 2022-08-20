@@ -20,14 +20,14 @@ console.log (shoutyGreeting(mentor4));
 console.log (shoutyGreeting(mentor5));
 
 //Alternativa
-const greeting1 = shoutyGreeting(mentor1);
-const greeting2 = shoutyGreeting(mentor2);
-const greeting3 = shoutyGreeting(mentor3);
-const greeting4 = shoutyGreeting(mentor4);
-const greeting5 = shoutyGreeting(mentor5);
+//const greeting1 = shoutyGreeting(mentor1);
+//const greeting2 = shoutyGreeting(mentor2);
+//const greeting3 = shoutyGreeting(mentor3);
+//const greeting4 = shoutyGreeting(mentor4);
+//const greeting5 = shoutyGreeting(mentor5);
 
-console.log (greeting1);
-console.log (greeting2);
-console.log (greeting3);
-console.log (greeting4);
-console.log (greeting5);
+//console.log (greeting1);
+//console.log (greeting2);
+//console.log (greeting3);
+//console.log (greeting4);
+//console.log (greeting5);
