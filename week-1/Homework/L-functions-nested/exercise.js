@@ -8,37 +8,26 @@ function nameSpelling (mentor){
 return mentor.toUpperCase();
 }
 function shoutyGreeting (mentor){
-    const myMentor = nameSpelling (mentor1);
-    const message = "HI " + myMentor;
+    const myMentor = nameSpelling (mentor);
+    const message = "HELLO " + myMentor;
     return message;
 }
 
-function shoutyGreeting2 (mentor){
-    const myMentor = nameSpelling (mentor2);
-    const message = "HI " + myMentor;
-    return message;
-}
+console.log (shoutyGreeting(mentor1));
+console.log (shoutyGreeting(mentor2));
+console.log (shoutyGreeting(mentor3));
+console.log (shoutyGreeting(mentor4));
+console.log (shoutyGreeting(mentor5));
 
-function shoutyGreeting3 (mentor){
-    const myMentor = nameSpelling (mentor3);
-    const message = "HI " + myMentor;
-    return message;
-}
+//Alternativa
+const greeting1 = shoutyGreeting(mentor1);
+const greeting2 = shoutyGreeting(mentor2);
+const greeting3 = shoutyGreeting(mentor3);
+const greeting4 = shoutyGreeting(mentor4);
+const greeting5 = shoutyGreeting(mentor5);
 
-function shoutyGreeting4 (mentor){
-    const myMentor = nameSpelling (mentor4);
-    const message = "HI " + myMentor;
-    return message;
-}
-
-function shoutyGreeting5 (mentor){
-    const myMentor = nameSpelling (mentor5);
-    const message = "HI " + myMentor;
-    return message;
-}
-
-console.log (shoutyGreeting());
-console.log (shoutyGreeting2());
-console.log (shoutyGreeting3());
-console.log (shoutyGreeting4());
-console.log (shoutyGreeting5());
+console.log (greeting1);
+console.log (greeting2);
+console.log (greeting3);
+console.log (greeting4);
+console.log (greeting5);
