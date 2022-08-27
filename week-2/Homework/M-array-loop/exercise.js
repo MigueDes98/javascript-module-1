@@ -13,3 +13,8 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+function allDays (eachDay){
+const result = eachDay.filter ((day) => day.startsWith("T"))
+return result
+}
+console.log (allDays(daysOfWeek))
