@@ -13,18 +13,8 @@ const messy = [
   19,
   "ElaMIN",
 ];
-
-function lessMessy (arrays) { if (typeof arrays  === "string") 
-{console.log(arrays.toUpperCase().split("").join(""));}
-else {console.log(null);}
-}
-//const newArray = lessMessy(messy);
-//console.log(newArray);
-
-
-
-
-
+const noMessy = messy.filter(mess => typeof mess === "string").map(element => element.toUpperCase() + "!")
+console.log(noMessy);
 
 
 

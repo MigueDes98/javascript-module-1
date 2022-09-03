@@ -1,10 +1,6 @@
 const birthYear = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
+const newDate = new Date()
+const allYear = newDate.getFullYear()
 birthYear.forEach(function (birth) {
-  console.log (2022 - birth);
+  console.log (allYear - birth);
 })
-
-
-//const names = ["Daniel", "mozafar", "irina"];
-//names.forEach(function (name, index) {
- // console.log(index + ": " + name);
-//});

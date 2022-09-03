@@ -6,11 +6,9 @@
   - Do not edit any of the existing code
 */
 
-var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
-function findNull (myPairs) {
-  if (myPairs === "null") return process.exit(1);
-  else if (myPairs !== "null") return myPairs;
-}
+var pairsByIndex = [[0, 3], [1, 2], [2, 1], [3, 0]];
+if (pairsByIndex.some((indexPair) => indexPair === null )){return (console.log("ERROR") && process.exit(1))}
+
 // If there is a null value in the array exit the program with the error code
 // https://nodejs.org/api/process.html#process_process_exit_code
 // process.exit(1);
