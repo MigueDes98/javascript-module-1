@@ -13,7 +13,7 @@ const messy = [
   19,
   "ElaMIN",
 ];
-const noMessy = messy.filter(mess => typeof mess === "string").map(element => element.toUpperCase() + "!")
+const noMessy = messy.filter(mess => typeof mess === "string").map(mess1 => mess1.toUpperCase() + "!")
 console.log(noMessy);
 
 

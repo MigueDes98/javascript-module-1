@@ -19,8 +19,7 @@ console.log(nameOrder);
 function nameArray (name){
     if (nameOrder.includes(name)) {
         return name +  " is at the class with " + nameOrder.join(", ");
-    }
-    else {
+    } else {
         return name + " is not at the class with " + nameOrder.join(", ");
     }
 }
